@@ -117,7 +117,7 @@ body {
 .page_heading,.about_page{
 	background: transparent url(../img/about_header.jpg)center center no-repeat;
 	background-size: cover;
-
+	margin-bottom: 70px;
 
 }
 
@@ -167,7 +167,6 @@ body {
 .about_box{
 	display: flex;
 	align-items: center;
-	margin-top: 70px;
 	margin-bottom: 60px;
 }
 .about_box .item_data:first-child{
@@ -411,13 +410,13 @@ h2.box_title{
 .footer_item.instagram ul{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	margin: 0 -13px; 
+	width: auto; 
+	justify-content: flex-start; 
 }
 
 .footer_item.instagram ul li{
-	width: 33.3% - 26px);
-	margin-bottom: 26px;
-	margin-right: 26px;
+	padding: 0 13px 26px 13px;
 }
 .footer_item.instagram img{
 	max-width: 100%;
@@ -437,18 +436,22 @@ h2.box_title{
 }
 .bottom_footer p{
 	font-family: Quicksand;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 35px;
-color: #FFFFFF;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 35px;
+	color: #FFFFFF;
 }
 .bottom_footer .social{
 	letter-spacing: 10px;
+	margin: 0 -13px; 
+	width: auto; 
+	justify-content: flex-start;
 }
-.bottom_footer .social li{
-display: inline-block;
 
+.bottom_footer .social li{
+	display: inline-block;
+	padding: 0 13px 26px 13px;
 }
 
 
@@ -457,19 +460,22 @@ display: inline-block;
 .blog_page{
 	background: transparent url(../img/blog_header.jpg)center center no-repeat;
 	background-size: cover;
+	margin-bottom: 74px;
 }
 .blog_archive{
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-top: 74px;
 	margin-bottom: 12px;
+	
 
 }
 .blog_archive article.post{
 	width: calc(33.3% - 13.3px);
 	margin-bottom: 51px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 .blog_archive article.post .thumbnail{
 	position: relative;
@@ -801,13 +807,14 @@ display: inline-block;
 .shop_page{
 	background: transparent url(../img/shop.jpg)center center no-repeat;
 	background-size: cover;
+	margin-bottom: 70px;
 }
 .shop{
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-top: 70px;
+	
 
 }
 .shop .product{
@@ -815,6 +822,8 @@ display: inline-block;
 	box-sizing: border-box;
 	margin-bottom: 20px;
 	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 .shop .product .thumbnail{
 	margin-bottom: 27px;
@@ -894,12 +903,13 @@ display: inline-block;
 }
 
 .contact .contact1 img{
+	object-fit: cover;
 	max-width: 100%;
 	height: auto;
+	margin-bottom: 65px;
 }
 
 .contact_subscribe{
-	margin-top: 65px;
 	margin-left: 50px;
 	margin-right: 50px;
 	padding-bottom: 90px; 
@@ -1112,14 +1122,14 @@ form.subscribe1 {
 .home_about{
 	background: url(../img/home_about.png) center center no-repeat;
 	background-size: cover;
+	margin-bottom: 160px;
 }
 
 .home_shop{
-	margin-top: 160px;
+	margin-bottom: 160px;
 }
 .home_subscribe{
 	background: #DFEEB6;
-	margin-top: 160px;
 	margin-left: 50px;
 	margin-right: 50px;
 	padding-bottom: 120px; 
